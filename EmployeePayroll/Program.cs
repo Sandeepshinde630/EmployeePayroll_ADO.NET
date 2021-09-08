@@ -9,7 +9,7 @@ namespace EmployeePayroll
             Console.WriteLine("Hello World!");
             EmployeeModel employee = new EmployeeModel();
             EmployeeRepo employeeRepo = new EmployeeRepo();
-            //employeeRepo.GetAllEmployee();
+            employeeRepo.GetAllEmployee();
             employee.EmployeeName = "Sandeep";
             employee.Department = "Sales";
             employee.PhoneNumber = "9863584931";
@@ -22,7 +22,10 @@ namespace EmployeePayroll
             employee.EmployeeID = 2;
             employee.BasicPay = 3000000;
             
-            employeeRepo.AddEmployee(employee);
+            //employeeRepo.AddEmployee(employee);
+            //employeeRepo.UpdateEmployeeSalary(employee);
+            //employeeRepo.RetriveDateRange();
+            //employeeRepo.Functions();
                
         }
     }
